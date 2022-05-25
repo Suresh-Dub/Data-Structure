@@ -3,7 +3,7 @@ int main()
 {  
     char exp[50];
     int x=0, i=0; 
-    printf("\nEnter an expression = ");  
+    printf("\nHey Buddy Enter an expression = ");  
     scanf("%s", exp);  
  while(exp[i]!= '\0')  
     {  
