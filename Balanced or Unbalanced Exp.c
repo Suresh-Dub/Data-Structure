@@ -1,17 +1,17 @@
 #include<stdio.h>  
 int main()  
 {  
-    char expression[50];
+    char exp[50];
     int x=0, i=0; 
     printf("\nEnter an expression = ");  
-    scanf("%s", expression);  
- while(expression[i]!= '\0')  
+    scanf("%s", exp);  
+ while(exp[i]!= '\0')  
     {  
-     if(expression[i]=='(')  
+     if(exp[i]=='(')  
         {  
             x++;
         }  
-     else if(expression[i]==')')  
+     else if(exp[i]==')')  
         {  
             x--; 
             if(x<0)  
@@ -21,12 +21,12 @@ int main()
     }  
     if(x==0)  
     {  
-        printf("Expression is balanced");  
+        printf("Hey Buddy Expression is balanced");  
     }  
       
     else  
     {  
-        printf("Expression is unbalanced");  
+        printf("Hey Buddy Expression is unbalanced");  
     }  
     return 0;  
 }
