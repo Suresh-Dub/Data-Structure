@@ -13,7 +13,7 @@ void display();                         //Display is used to view elements in st
 int main()
 {
 int ch;
-while()                                //infinite loop, will end when choice will be 4
+while(1)                                //infinite loop, will end when choice will be 4
 {
 printf("\n*********** Stack Menu ***********");
 printf("\n\n1.Push\n2.Pop\n3.Display\n4.Exit");
